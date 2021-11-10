@@ -12,6 +12,7 @@ import { CentroComponent } from './components/centro/centro.component';
 import { MateriaComponent } from './components/materia/materia.component';
 import { TemaComponent } from './components/tema/tema.component';
 import { FechaComponent } from './components/fecha/fecha.component';
+import { NormativasComponent } from './components/normativas/normativas.component';
 
 
 const routes: Routes = [
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path:'centro', component:CentroComponent },
   { path:'materia', component:MateriaComponent },
   { path:'tema', component:TemaComponent },
-  { path:'fecha', component:FechaComponent }
+  { path:'fecha', component:FechaComponent },
+  { path:'normativas', component:NormativasComponent }
   
 ];
 

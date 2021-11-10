@@ -15,6 +15,7 @@ import { CentroComponent } from './components/centro/centro.component';
 import { MateriaComponent } from './components/materia/materia.component';
 import { TemaComponent } from './components/tema/tema.component';
 import { FechaComponent } from './components/fecha/fecha.component';
+import { NormativasComponent } from './components/normativas/normativas.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FechaComponent } from './components/fecha/fecha.component';
     CentroComponent,
     MateriaComponent,
     TemaComponent,
-    FechaComponent
+    FechaComponent,
+    NormativasComponent
   ],
   imports: [
     BrowserModule,
