@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterComponent } from './components/register/register.component';
+
 import { HomeComponent } from './components/home/home.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
 import { AutorComponent } from './components/autor/autor.component';
@@ -15,6 +16,7 @@ import { CentroComponent } from './components/centro/centro.component';
 import { MateriaComponent } from './components/materia/materia.component';
 import { TemaComponent } from './components/tema/tema.component';
 import { FechaComponent } from './components/fecha/fecha.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { FechaComponent } from './components/fecha/fecha.component';
     CentroComponent,
     MateriaComponent,
     TemaComponent,
-    FechaComponent
+    FechaComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
