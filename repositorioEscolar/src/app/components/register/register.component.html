@@ -3,7 +3,7 @@
     <div class="container">
         
         <div class="login-content">
-            <form action="index.html">
+            <form novalidate (ngSubmit)="createUser(userForm)" [formGroup]="userForm">
                 <img src="../../../assets/img/registro/avatar.svg">
                 <h2 class="title">Registrate</h2>
                 
@@ -12,7 +12,7 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <input type="text" placeholder="Nombre completo" class="input">
+                        <input type="text" placeholder="Nombre completo" class="input" formControlName="nombre">
                     </div>
                 </div>
                 
@@ -21,7 +21,7 @@
                         <i class="fas fa-envelope"></i>
                     </div>
                     <div class="div">
-                        <input type="text" placeholder="Correo" class="input">
+                        <input type="text" placeholder="Correo" class="input" formControlName="correo">
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <input type="password" placeholder="Contraseña" class="input">
+                        <input type="password" placeholder="Contraseña" class="input" formControlName="password">
                     </div>
                 </div>
                 <a routerLink="../login">¿Ya tienes una cuenta? Logueate</a>
