@@ -22,6 +22,7 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { NormativasComponent } from './components/normativas/normativas.component';
 
 import { environment } from '../environments/environment';
 @NgModule({
@@ -40,7 +41,7 @@ import { environment } from '../environments/environment';
     TemaComponent,
     FechaComponent,
     RegisterComponent,
-    
+    NormativasComponent
   ],
   imports: [
     BrowserModule,
