@@ -34,11 +34,7 @@ import { NormativasComponent } from './components/normativas/normativas.componen
     MateriaComponent,
     TemaComponent,
     FechaComponent,
-<<<<<<< HEAD
     NormativasComponent
-=======
-    RegisterComponent
->>>>>>> a9b6b65e5f8b93aa5bff63fc7d8a562260eaa051
   ],
   imports: [
     BrowserModule,
