@@ -5,7 +5,6 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
-
 import { AutorComponent } from './components/autor/autor.component';
 import { CarreraComponent } from './components/carrera/carrera.component';
 import { CentroComponent } from './components/centro/centro.component';

@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterComponent } from './components/register/register.component';
+
 import { HomeComponent } from './components/home/home.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
 import { AutorComponent } from './components/autor/autor.component';
@@ -16,6 +17,7 @@ import { MateriaComponent } from './components/materia/materia.component';
 import { TemaComponent } from './components/tema/tema.component';
 import { FechaComponent } from './components/fecha/fecha.component';
 import { NormativasComponent } from './components/normativas/normativas.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,11 @@ import { NormativasComponent } from './components/normativas/normativas.componen
     MateriaComponent,
     TemaComponent,
     FechaComponent,
+<<<<<<< HEAD
     NormativasComponent
+=======
+    RegisterComponent
+>>>>>>> a9b6b65e5f8b93aa5bff63fc7d8a562260eaa051
   ],
   imports: [
     BrowserModule,
