@@ -8,6 +8,13 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
+import { BusquedaComponent } from './components/busqueda/busqueda.component';
+import { AutorComponent } from './components/autor/autor.component';
+import { CarreraComponent } from './components/carrera/carrera.component';
+import { CentroComponent } from './components/centro/centro.component';
+import { MateriaComponent } from './components/materia/materia.component';
+import { TemaComponent } from './components/tema/tema.component';
+import { FechaComponent } from './components/fecha/fecha.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { HomeComponent } from './components/home/home.component';
     PortafolioComponent,
     NavbarComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    BusquedaComponent,
+    AutorComponent,
+    CarreraComponent,
+    CentroComponent,
+    MateriaComponent,
+    TemaComponent,
+    FechaComponent
   ],
   imports: [
     BrowserModule,

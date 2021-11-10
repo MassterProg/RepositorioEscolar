@@ -38,7 +38,7 @@ input {
 
 input[type="text"] {
     background: #ccc;
-    width: 340px;
+    width: 450px;
     height: 50px;
     border: none;
     outline: none;
@@ -138,7 +138,7 @@ background: #069;
 
 #contenedor {
     max-width: 1000px;
-    min-height: 700px;
+    min-height: 1200px;
     background: #fff;
     margin: 0 auto;
 
@@ -146,7 +146,7 @@ background: #069;
 /*<!--menu vertical -->*/
 #menu-v {
 width: 300px;
-min-height: 700px;
+min-height: 1220px;
 background: #ccc;
 float: left;
 }
@@ -156,6 +156,8 @@ float: left;
     padding: 10px;
     
 }
+
+
 
 #menu-v a {
     display: block;
@@ -187,7 +189,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', end
 /*<!--contenido -->*/
 #contenido {
     width: 700px;
-    min-height: 700px;
+    min-height: 1220px;
     background: #fff;
     float: right;
     padding: 15px;
