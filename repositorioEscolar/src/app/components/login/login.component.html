@@ -1,0 +1,36 @@
+<body>
+    <img class="wave" src="../../../assets/img/login/wave2.png">
+    <div class="container">
+        <div class="img">
+            <img src="../../../assets/img/login/education_login.svg">
+        </div>
+        <div class="login-content">
+            <form novalidate (ngSubmit)="login(loginForm)" [formGroup]="loginForm" >
+                <img src="../../../assets/img/login/avatar.svg">
+                <h2 class="title">Bienvenido</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <input type="text" placeholder="Correo" class="input" formControlName="correo">
+                    </div>
+                </div>
+
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                        <input type="password" placeholder="Contraseña" class="input" formControlName="password">
+                    </div>
+                </div>
+                <a routerLink="../registro">¿No tienes cuenta? Registrate</a>
+                <input type="submit" class="btn" value="Login">
+
+            </form>
+
+        </div>
+    </div>
+    
+</body>
