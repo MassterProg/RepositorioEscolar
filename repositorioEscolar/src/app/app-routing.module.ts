@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
-import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
@@ -12,14 +11,13 @@ import { MateriaComponent } from './components/materia/materia.component';
 import { TemaComponent } from './components/tema/tema.component';
 import { FechaComponent } from './components/fecha/fecha.component';
 import { NormativasComponent } from './components/normativas/normativas.component';
-
+import { CreditosComponent } from './components/creditos/creditos.component';
 
 const routes: Routes = [
-  { path: "", redirectTo:"/paginaprincipal", pathMatch:"full"},
+  { path: "", redirectTo:"/login", pathMatch:"full"},
   { path:'paginaprincipal', component:HomeComponent},
   { path:'login', component:LoginComponent },
   { path:'registro', component: RegisterComponent },
-  { path:'portafolio', component:PortafolioComponent },
   { path:'busqueda', component:BusquedaComponent },
   { path:'autor', component:AutorComponent },
   { path:'carrera', component:CarreraComponent },
@@ -27,7 +25,8 @@ const routes: Routes = [
   { path:'materia', component:MateriaComponent },
   { path:'tema', component:TemaComponent },
   { path:'fecha', component:FechaComponent },
-  { path:'normativas', component:NormativasComponent }
+  { path:'normativas', component:NormativasComponent },
+  { path:'creditos', component:CreditosComponent}
   
 ];
 

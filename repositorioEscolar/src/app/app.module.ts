@@ -5,7 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
-import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
@@ -25,11 +24,11 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { NormativasComponent } from './components/normativas/normativas.component';
 
 import { environment } from '../environments/environment';
+import { CreditosComponent } from './components/creditos/creditos.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PortafolioComponent,
     NavbarComponent,
     RegisterComponent,
     HomeComponent,
@@ -41,7 +40,8 @@ import { environment } from '../environments/environment';
     TemaComponent,
     FechaComponent,
     RegisterComponent,
-    NormativasComponent
+    NormativasComponent,
+    CreditosComponent
   ],
   imports: [
     BrowserModule,

@@ -167,7 +167,7 @@ header {
 /*<!--menu vertical -->*/
 #menu-v {
   width: 300px;
-  min-height: 1220px;
+  min-height: 1200px;
   background: #ccc;
   float: left;
 }
@@ -230,7 +230,7 @@ header {
 /*<!--contenido -->*/
 #contenido {
   width: 700px;
-  min-height: 1220px;
+  min-height: 1200px;
   background: #fff;
   float: right;
   padding: 15px;
@@ -262,4 +262,37 @@ footer {
   box-sizing: border-box;
   font-family: arial;
   font-size: 18px;
+}
+
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+  justify-content: center;
+
+  padding-left: 10px;
+  text-align: initial;
+}
+a {
+  text-align: center;
+}
+li {
+  text-align: center;
+}
+ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #ff6f00;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
+ol ol li::before {
+  background: darkorchid;
 }

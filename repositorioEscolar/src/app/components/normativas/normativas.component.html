@@ -1,116 +1,101 @@
 <body>
-    <header>
-      <section id="logo">
-        <a href="#"
-          ><img src="../../../assets/img/login/uaa10.png" alt="logo"
-        /></a>
-      </section>
-    </header>
-  
-    <!--menu horizontal -->
-    <nav id="menu1">
+  <header>
+    <section id="logo">
+      <a href="#"><img src="../../../assets/img/login/uaa10.png" alt="logo" /></a>
+    </section>
+  </header>
+
+  <!--menu horizontal -->
+  <nav id="menu1">
+    <ul>
+      <li><a routerLink="/paginaprincipal">Inicio</a></li>
+      <li><a routerLink="/busqueda">Documentos</a></li>
+      <li><a href="/normativas">Normativas</a></li>
+      <li>
+        <a href="#">Busquedas</a>
+        <ul class="submenu">
+          <li><a routerLink="/autor">Autor</a></li>
+          <li><a routerLink="/carrera">Carrera</a></li>
+          <li><a routerLink="/centro">Centro</a></li>
+          <li><a routerLink="/materia">Materia</a></li>
+          <li><a routerLink="/tema">Tema</a></li>
+          <li><a routerLink="/fecha">Fecha</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!--banner -->
+
+  <section id="banner">
+    <img src="../../../assets/img/login/uaaletras.jpg" alt="" />
+  </section>
+  <!--banner -->
+
+  <section id="contenedor">
+    <!--Menu Vertical -->
+    <nav id="menu-v">
       <ul>
-        <li><a routerLink="/paginaprincipal" >Inicio</a></li>
-        <li><a routerLink="/busqueda">Documentos</a></li>
-        <li><a href="/normativas">Normativas</a></li>
         <li>
-          <a href="#">Busquedas</a>
-          <ul class="submenu">
-            <li><a routerLink="/autor">Autor</a></li>
-            <li><a routerLink="/carrera">Carrera</a></li>
-            <li><a routerLink="/centro">Centro</a></li>
-            <li><a routerLink="/materia">Materia</a></li>
-            <li><a routerLink="/tema">Tema</a></li>
-            <li><a routerLink="/fecha">Fecha</a></li>
-          </ul>
+          <a routerLink="/busqueda"><img src="../../../assets/img/login/buscar.png" alt="" /> Buscar</a>
+        </li>
+        <li>
+          <a routerLink="/autor"><img src="../../../assets/img/login/autor.png" alt="" /> Autor</a>
+        </li>
+        <li>
+          <a routerLink="/carrera"><img src="../../../assets/img/login/carrera.png" alt="" />
+            Carrera</a>
+        </li>
+        <li>
+          <a routerLink="/centro"><img src="../../../assets/img/login/centro.png" alt="" /> Centro</a>
+        </li>
+        <li>
+          <a routerLink="/materia"><img src="../../../assets/img/login/materia.png" alt="" />
+            Materia</a>
+        </li>
+        <li>
+          <a routerLink="/tema"><img src="../../../assets/img/login/tema.png" alt="" /> Tema</a>
+        </li>
+        <li>
+          <a routerLink="/fecha"><img src="../../../assets/img/login/fecha.png" alt="" /> Fecha</a>
+        </li>
+        <li>
+          <a routerLink="/creditos"><img src="../../../assets/img/login/idea.png" alt="" /> Créditos</a>
         </li>
       </ul>
     </nav>
-  
-    <!--banner -->
-  
-    <section id="banner">
-      <img src="../../../assets/img/login/uaaletras.jpg" alt="" />
+    <!--Menu Vertical -->
+
+    <!--Contenido -->
+    <section id="contenido">
+      <br />
+      <h2>Normativas</h2>
+
+      <ol class="list">
+        <li class="list-item one"><a>El presente Reglamento tiene por objeto regular el funcionamiento
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del Repositorio Institucional Digital de la Universidad Autonoma De
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aguascalientes y las condiciones de depósito y divulgación de la
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;documentación archivada en él.</a></li>
+        <br>
+        <li class="list-item one">Solo usuarios registrados podran acceder al contenido del
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositorio.</li>
+        <br>
+        <li class="list-item two">Solo docentes tendran acceso de poder subir pdfs o videos al
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositorio.</li>
+        <br>
+        <li class="list-item three">Solo se permite un limite de tama&ntilde;o en los archivos pdfs de 5mb y
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en videos un tama&ntilde;o maximo de 5gb, para subir en
+          el Repositorio.</li>
+        <br>
+        <li class="list-item four">El contendio de este Repositorio es solo con fines educativos. </li>
+      </ol>
+
     </section>
-    <!--banner -->
-  
-    <section id="contenedor">
-      <!--Menu Vertical -->
-      <nav id="menu-v">
-        <ul>
-          <li>
-            <a routerLink="/busqueda"
-              ><img src="../../../assets/img/login/buscar.png" alt="" /> Buscar</a
-            >
-          </li>
-          <li>
-            <a routerLink="/autor"
-              ><img src="../../../assets/img/login/autor.png" alt="" /> Autor</a
-            >
-          </li>
-          <li>
-            <a routerLink="/carrera"
-              ><img src="../../../assets/img/login/carrera.png" alt="" />
-              Carrera</a
-            >
-          </li>
-          <li>
-            <a routerLink="/centro"
-              ><img src="../../../assets/img/login/centro.png" alt="" /> Centro</a
-            >
-          </li>
-          <li>
-            <a routerLink="/materia"
-              ><img src="../../../assets/img/login/materia.png" alt="" />
-              Materia</a
-            >
-          </li>
-          <li>
-            <a routerLink="/tema"
-              ><img src="../../../assets/img/login/tema.png" alt="" /> Tema</a
-            >
-          </li>
-          <li>
-            <a routerLink="/fecha"
-              ><img src="../../../assets/img/login/fecha.png" alt="" /> Fecha</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!--Menu Vertical -->
-  
-      <!--Contenido -->
-      <section id="contenido">
-        <br />
-        <h2>Normativas</h2>
-  
-        <ol class="list">
-          <li class="list-item one"><a>El presente Reglamento tiene por objeto regular el funcionamiento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del Repositorio Institucional Digital de la Universidad Autonoma De &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aguascalientes y las condiciones de depósito y divulgación de la &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;documentación archivada en él.</a></li>
-          <br>
-          <li class="list-item one">Solo usuarios registrados podran acceder al contenido del &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositorio.</li>
-          <br>
-          <li class="list-item two">Solo docentes tendran acceso de poder subir pdfs o videos al &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Repositorio.</li>
-          <br>
-          <li class="list-item three">Solo se permite un limite de tama&ntilde;o en los archivos pdfs de 5mb y &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en videos un tama&ntilde;o maximo de 5gb, para subir en el Repositorio.</li>
-          <br>
-          <li class="list-item four">El contendio de este Repositorio es solo con fines educativos. </li>
-        </ol>
-  
-      
-  
-       
-       
-  
-        
-        
-  
-      </section>
-  
-      <!--Contenido -->
-    </section>
-    <footer>
-      Derechos Reservados Copy; 2021 <br />
-      Diseñado por: Jose Avila <br />
-      www.dominio.com <br />
-    </footer>
-  </body>
+
+    <!--Contenido -->
+  </section>
+  <footer>
+    Derechos Reservados Copy; 2021 <br />
+    www.dominio.com <br />
+  </footer>
+</body>
